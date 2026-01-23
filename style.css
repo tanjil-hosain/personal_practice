@@ -6,10 +6,12 @@ body{
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
+    background-color: rgb(226, 218, 218);
 }
 form{
-    background-color: brown;
-    width: 30%;
+    background-color: rgb(70, 184, 241);
+    width: 40%;
+    color: aliceblue;
     /* justify-content: center;
     align-items: center; */
     text-align: center;
@@ -17,5 +19,26 @@ form{
     place-items: center; */
     padding: 20px;
 
+}
+
+.nav_bar{
+    background-color: black;
+    padding: 5px;
+}
+.nav_list{
+    display: flex;
+    /* padding: 2px; */
+    gap: 90px;
+    font-size: large;
+    list-style-type: none;
+    color: white;
+    font-style: bold;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    background-color: greenyellow;
 }
 
