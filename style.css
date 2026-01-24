@@ -3,14 +3,23 @@ body{
     padding: 0;
     display: flex;
     /* justify-content: center; */
-    align-items: center;
+    /* align-items: center; */
     min-height: 100vh;
     flex-direction: column;
-    background-color: rgb(226, 218, 218);
+    /* background-color: rgb(226, 218, 218); */
+}
+body::before{
+    background-image: url(image/program.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
 }
 .nav_bar{
     background-color: black;
     padding: 5px;
+    /* margin-left: -20px;
+    margin-right: -20px; */
 }
 .nav_list{
     display: flex;
@@ -27,19 +36,24 @@ li a{
 }
 li a:hover{
     background-color: greenyellow;
+   
 }
 
 
 form{
-    background-color: rgb(70, 184, 241);
-    width: 40%;
+    background-color: rgb(243, 104, 24);
+    /* width: 55%; */
     color: aliceblue;
     /* justify-content: center;
     align-items: center; */
     text-align: center;
     /* display: grid;
     place-items: center; */
-    padding: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px;
+    box-shadow: 2px;
+    border-color: black;
    
 
 }
@@ -53,4 +67,25 @@ form{
     font-style: bold;
     
 }
-
+.main{
+    display: flex;
+    /* align-items: flex-start; */
+    /* justify-content: center; */
+    gap: 200px;
+    padding: 20px;
+    margin-right: 0%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.description{
+    flex: 1;
+    max-width: 500px;
+    
+}
+.form_cointainer{
+    flex: 1;
+    max-width: 220px;
+    /* align-items: self-end; */
+    /* margin-left: -20%; */
+    
+}
