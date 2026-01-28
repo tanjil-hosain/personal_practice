@@ -99,3 +99,15 @@ form{
     /* margin-left: -20%; */
     
 }
+button{
+    width: 60px;
+    padding: 6px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 3px;
+    border-color: blue;
+    border-style: inset;
+}
+button:hover{
+    background-color:brown;
+}
